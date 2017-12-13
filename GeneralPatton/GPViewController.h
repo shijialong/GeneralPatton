@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GPViewController.h
 //  GeneralPatton
 //
 //  Created by shijialong on 2017/12/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GPViewController : UIViewController
 
 @end
-
