@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F05986D1FE0DC6100047D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05986C1FE0DC6100047D7A /* AppDelegate.m */; };
-		1F0598751FE0DC6100047D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0598741FE0DC6100047D7A /* Assets.xcassets */; };
-		1F0598781FE0DC6100047D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0598761FE0DC6100047D7A /* LaunchScreen.storyboard */; };
-		1F05987B1FE0DC6100047D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05987A1FE0DC6100047D7A /* main.m */; };
 		1F0598851FE0DC6100047D7A /* GeneralPattonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0598841FE0DC6100047D7A /* GeneralPattonTests.m */; };
 		1F0598901FE0DC6200047D7A /* GeneralPattonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05988F1FE0DC6200047D7A /* GeneralPattonUITests.m */; };
-		1F05989F1FE0DD8300047D7A /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05989E1FE0DD8300047D7A /* GPViewController.m */; };
-		1F0598A21FE128F800047D7A /* GPBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0598A11FE128F800047D7A /* GPBaseVC.m */; };
+		1F4144331FF2374500A5D474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144321FF2374500A5D474 /* AppDelegate.m */; };
+		1F41443A1FF237A900A5D474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4144351FF237A900A5D474 /* Assets.xcassets */; };
+		1F41443B1FF237A900A5D474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4144361FF237A900A5D474 /* LaunchScreen.storyboard */; };
+		1F41443C1FF237A900A5D474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144381FF237A900A5D474 /* main.m */; };
+		1F41443D1FF237A900A5D474 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4144391FF237A900A5D474 /* Info.plist */; };
+		1F4144441FF2383000A5D474 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144411FF2382F00A5D474 /* GPViewController.m */; };
+		1F4144471FF238C700A5D474 /* UIColor+GPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144461FF238C700A5D474 /* UIColor+GPColor.m */; };
+		1F41444A1FF23B2A00A5D474 /* UIColor+JLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144491FF23B2A00A5D474 /* UIColor+JLColor.m */; };
+		1F41444E1FF2509D00A5D474 /* GPBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41444D1FF2509D00A5D474 /* GPBaseVC.m */; };
+		1F4144521FF2515B00A5D474 /* GPMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4144511FF2515B00A5D474 /* GPMainTabBarController.m */; };
 		31AC56C23BE4F03168FC1F05 /* libPods-GeneralPatton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF199A9E14ABE9418F0C898 /* libPods-GeneralPatton.a */; };
 /* End PBXBuildFile section */
 
@@ -37,22 +41,29 @@
 
 /* Begin PBXFileReference section */
 		1F0598681FE0DC6100047D7A /* GeneralPatton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneralPatton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F05986B1FE0DC6100047D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F05986C1FE0DC6100047D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F0598741FE0DC6100047D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F0598771FE0DC6100047D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1F0598791FE0DC6100047D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F05987A1FE0DC6100047D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F0598801FE0DC6100047D7A /* GeneralPattonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralPattonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0598841FE0DC6100047D7A /* GeneralPattonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralPattonTests.m; sourceTree = "<group>"; };
 		1F0598861FE0DC6100047D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F05988B1FE0DC6200047D7A /* GeneralPattonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralPattonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F05988F1FE0DC6200047D7A /* GeneralPattonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralPattonUITests.m; sourceTree = "<group>"; };
 		1F0598911FE0DC6200047D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F05989D1FE0DD8300047D7A /* GPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
-		1F05989E1FE0DD8300047D7A /* GPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
-		1F0598A01FE128F800047D7A /* GPBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPBaseVC.h; sourceTree = "<group>"; };
-		1F0598A11FE128F800047D7A /* GPBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPBaseVC.m; sourceTree = "<group>"; };
+		1F4144311FF2374500A5D474 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F4144321FF2374500A5D474 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F4144351FF237A900A5D474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4144371FF237A900A5D474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4144381FF237A900A5D474 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4144391FF237A900A5D474 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4144401FF2382F00A5D474 /* GPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		1F4144411FF2382F00A5D474 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		1F4144451FF238C700A5D474 /* UIColor+GPColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GPColor.h"; sourceTree = "<group>"; };
+		1F4144461FF238C700A5D474 /* UIColor+GPColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GPColor.m"; sourceTree = "<group>"; };
+		1F4144481FF23B2A00A5D474 /* UIColor+JLColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JLColor.h"; sourceTree = "<group>"; };
+		1F4144491FF23B2A00A5D474 /* UIColor+JLColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JLColor.m"; sourceTree = "<group>"; };
+		1F41444C1FF2509D00A5D474 /* GPBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBaseVC.h; sourceTree = "<group>"; };
+		1F41444D1FF2509D00A5D474 /* GPBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBaseVC.m; sourceTree = "<group>"; };
+		1F4144501FF2515B00A5D474 /* GPMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPMainTabBarController.h; sourceTree = "<group>"; };
+		1F4144511FF2515B00A5D474 /* GPMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPMainTabBarController.m; sourceTree = "<group>"; };
+		1F4144531FF34A7D00A5D474 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		21190AA3E3B307CE2AE069ED /* Pods-GeneralPatton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralPatton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeneralPatton/Pods-GeneralPatton.debug.xcconfig"; sourceTree = "<group>"; };
 		CA8F39D5CB1CB60A73AF22A5 /* Pods-GeneralPatton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeneralPatton.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeneralPatton/Pods-GeneralPatton.release.xcconfig"; sourceTree = "<group>"; };
 		FFF199A9E14ABE9418F0C898 /* libPods-GeneralPatton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeneralPatton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,16 +120,10 @@
 		1F05986A1FE0DC6100047D7A /* GeneralPatton */ = {
 			isa = PBXGroup;
 			children = (
-				1F05986B1FE0DC6100047D7A /* AppDelegate.h */,
-				1F05986C1FE0DC6100047D7A /* AppDelegate.m */,
-				1F05989D1FE0DD8300047D7A /* GPViewController.h */,
-				1F05989E1FE0DD8300047D7A /* GPViewController.m */,
-				1F0598A01FE128F800047D7A /* GPBaseVC.h */,
-				1F0598A11FE128F800047D7A /* GPBaseVC.m */,
-				1F0598741FE0DC6100047D7A /* Assets.xcassets */,
-				1F0598761FE0DC6100047D7A /* LaunchScreen.storyboard */,
-				1F0598791FE0DC6100047D7A /* Info.plist */,
-				1F05987A1FE0DC6100047D7A /* main.m */,
+				1F4144301FF2374500A5D474 /* AppDelegate */,
+				1F41443E1FF2382F00A5D474 /* Modules */,
+				1F41442E1FF2373E00A5D474 /* Common */,
+				1F4144341FF237A900A5D474 /* SupporttingFiles */,
 			);
 			path = GeneralPatton;
 			sourceTree = "<group>";
@@ -139,6 +144,75 @@
 				1F0598911FE0DC6200047D7A /* Info.plist */,
 			);
 			path = GeneralPattonUITests;
+			sourceTree = "<group>";
+		};
+		1F41442E1FF2373E00A5D474 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1F41444B1FF2505E00A5D474 /* BaseClass */,
+				1F41442F1FF2373E00A5D474 /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1F41442F1FF2373E00A5D474 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1F4144451FF238C700A5D474 /* UIColor+GPColor.h */,
+				1F4144461FF238C700A5D474 /* UIColor+GPColor.m */,
+				1F4144481FF23B2A00A5D474 /* UIColor+JLColor.h */,
+				1F4144491FF23B2A00A5D474 /* UIColor+JLColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1F4144301FF2374500A5D474 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1F4144311FF2374500A5D474 /* AppDelegate.h */,
+				1F4144321FF2374500A5D474 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1F4144341FF237A900A5D474 /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1F4144351FF237A900A5D474 /* Assets.xcassets */,
+				1F4144531FF34A7D00A5D474 /* PrefixHeader.pch */,
+				1F4144361FF237A900A5D474 /* LaunchScreen.storyboard */,
+				1F4144381FF237A900A5D474 /* main.m */,
+				1F4144391FF237A900A5D474 /* Info.plist */,
+			);
+			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		1F41443E1FF2382F00A5D474 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1F41444F1FF2510000A5D474 /* MainTab */,
+				1F4144401FF2382F00A5D474 /* GPViewController.h */,
+				1F4144411FF2382F00A5D474 /* GPViewController.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1F41444B1FF2505E00A5D474 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				1F41444C1FF2509D00A5D474 /* GPBaseVC.h */,
+				1F41444D1FF2509D00A5D474 /* GPBaseVC.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		1F41444F1FF2510000A5D474 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				1F4144501FF2515B00A5D474 /* GPMainTabBarController.h */,
+				1F4144511FF2515B00A5D474 /* GPMainTabBarController.m */,
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 		629B4F8614ADA8F3BF1C6E84 /* Pods */ = {
@@ -267,8 +341,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0598781FE0DC6100047D7A /* LaunchScreen.storyboard in Resources */,
-				1F0598751FE0DC6100047D7A /* Assets.xcassets in Resources */,
+				1F41443B1FF237A900A5D474 /* LaunchScreen.storyboard in Resources */,
+				1F41443A1FF237A900A5D474 /* Assets.xcassets in Resources */,
+				1F41443D1FF237A900A5D474 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,10 +419,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0598A21FE128F800047D7A /* GPBaseVC.m in Sources */,
-				1F05987B1FE0DC6100047D7A /* main.m in Sources */,
-				1F05989F1FE0DD8300047D7A /* GPViewController.m in Sources */,
-				1F05986D1FE0DC6100047D7A /* AppDelegate.m in Sources */,
+				1F4144521FF2515B00A5D474 /* GPMainTabBarController.m in Sources */,
+				1F41443C1FF237A900A5D474 /* main.m in Sources */,
+				1F4144441FF2383000A5D474 /* GPViewController.m in Sources */,
+				1F41444E1FF2509D00A5D474 /* GPBaseVC.m in Sources */,
+				1F4144471FF238C700A5D474 /* UIColor+GPColor.m in Sources */,
+				1F4144331FF2374500A5D474 /* AppDelegate.m in Sources */,
+				1F41444A1FF23B2A00A5D474 /* UIColor+JLColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,10 +461,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F0598761FE0DC6100047D7A /* LaunchScreen.storyboard */ = {
+		1F4144361FF237A900A5D474 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F0598771FE0DC6100047D7A /* Base */,
+				1F4144371FF237A900A5D474 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -504,7 +582,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GeneralPatton/Info.plist;
+				GCC_PREFIX_HEADER = /Users/sjl/WorkSpace/GeneralPatton/GeneralPatton/SupporttingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GeneralPatton/SupporttingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shijialong.GeneralPatton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,7 +597,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GeneralPatton/Info.plist;
+				GCC_PREFIX_HEADER = /Users/sjl/WorkSpace/GeneralPatton/GeneralPatton/SupporttingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/GeneralPatton/SupporttingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shijialong.GeneralPatton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
